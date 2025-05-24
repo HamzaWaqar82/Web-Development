@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Outfit:wght@100..900&display=swap');
+
+.lexend-giga-outfit {
+  font-family: "Lexend Giga", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Resets */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: outfit;
+    background-color:  hsl(212, 45%, 89%);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    
+    gap: 10px;
+    padding: 15px;
+
+
+    box-shadow: 1px 1px 50px  hsl(216, 15%, 48%);
+    border: none;
+    border-radius: 15px;
+
+}
+
+.qr img{
+    width: 100%;
+    border: none;
+    border-radius: 15px;
+}
+
+.heading {
+    text-align: center;
+    
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    padding: 5px;
+}
+.para{
+    text-align: center;
+    
+    font-size: 15px;
+    padding: 10px ;
+    columns: hsl(216, 15%, 48%);
+}
+
+.attribution{
+    position: absolute;
+    bottom: 2rem;
+}
